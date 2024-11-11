@@ -1,0 +1,52 @@
+2024-09-16T13:02:25.161+05:30  INFO 9896 --- [employee] [main] c.example.employee.EmployeeApplication   : Starting EmployeeApplication using Java 22.0.2 with PID 9896 (C:\spring\employee\employee\target\classes started by Bhargavi G in C:\spring\employee\employee)
+2024-09-16T13:02:25.179+05:30  INFO 9896 --- [employee] [main] c.example.employee.EmployeeApplication   : The following 1 profile is active: "prod"
+2024-09-16T13:02:27.911+05:30  INFO 9896 --- [employee] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T13:02:27.911+05:30  INFO 9896 --- [employee] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T13:02:27.990+05:30  INFO 9896 --- [employee] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T13:02:29.440+05:30  INFO 9896 --- [employee] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T13:02:29.916+05:30  INFO 9896 --- [employee] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63880be9
+2024-09-16T13:02:29.916+05:30  INFO 9896 --- [employee] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T13:02:32.329+05:30  INFO 9896 --- [employee] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-16T13:02:32.456+05:30  INFO 9896 --- [employee] [main] c.example.employee.EmployeeApplication   : Started EmployeeApplication in 8.05 seconds (process running for 9.341)
+2024-09-16T13:03:16.889+05:30  INFO 9896 --- [employee] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T13:03:16.922+05:30 DEBUG 9896 --- [employee] [http-nio-8080-exec-2] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers'
+2024-09-16T13:10:12.438+05:30  INFO 9896 --- [employee] [http-nio-8080-exec-5] c.e.e.controller.EmployeeController      : Fetching list of all employees
+2024-09-16T13:12:31.173+05:30 DEBUG 9896 --- [employee] [http-nio-8080-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator root web endpoint
+2024-09-16T13:23:20.028+05:30  INFO 9896 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T13:23:20.047+05:30  INFO 9896 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T13:23:24.387+05:30  INFO 12564 --- [employee] [main] c.example.employee.EmployeeApplication   : Starting EmployeeApplication using Java 22.0.2 with PID 12564 (C:\spring\employee\employee\target\classes started by Bhargavi G in C:\spring\employee\employee)
+2024-09-16T13:23:24.395+05:30  INFO 12564 --- [employee] [main] c.example.employee.EmployeeApplication   : The following 1 profile is active: "prod"
+2024-09-16T13:23:28.040+05:30  INFO 12564 --- [employee] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T13:23:28.040+05:30  INFO 12564 --- [employee] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T13:23:28.136+05:30  INFO 12564 --- [employee] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T13:23:29.053+05:30  INFO 12564 --- [employee] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T13:23:29.360+05:30  INFO 12564 --- [employee] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72e49f6a
+2024-09-16T13:23:29.375+05:30  INFO 12564 --- [employee] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T13:23:31.595+05:30  INFO 12564 --- [employee] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-16T13:23:31.722+05:30  INFO 12564 --- [employee] [main] c.example.employee.EmployeeApplication   : Started EmployeeApplication in 7.936 seconds (process running for 8.572)
+2024-09-16T13:24:19.094+05:30  INFO 12564 --- [employee] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T13:24:19.129+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-2] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers-name'
+2024-09-16T13:24:46.851+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-3] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers-name'
+2024-09-16T13:24:52.266+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-4] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers-name'
+2024-09-16T13:25:24.806+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-5] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers-name'
+2024-09-16T13:25:52.891+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-6] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers-name'
+2024-09-16T13:26:10.190+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-8] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'loggers-name'
+2024-09-16T13:27:12.391+05:30 DEBUG 12564 --- [employee] [http-nio-8080-exec-2] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2024-09-16T13:27:52.170+05:30  INFO 12564 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T13:27:52.186+05:30  INFO 12564 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-16T13:27:55.121+05:30  INFO 11092 --- [employee] [main] c.example.employee.EmployeeApplication   : Starting EmployeeApplication using Java 22.0.2 with PID 11092 (C:\spring\employee\employee\target\classes started by Bhargavi G in C:\spring\employee\employee)
+2024-09-16T13:27:55.121+05:30  INFO 11092 --- [employee] [main] c.example.employee.EmployeeApplication   : The following 1 profile is active: "prod"
+2024-09-16T13:27:57.688+05:30  INFO 11092 --- [employee] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-16T13:27:57.690+05:30  INFO 11092 --- [employee] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-16T13:27:57.792+05:30  INFO 11092 --- [employee] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-16T13:27:58.645+05:30  INFO 11092 --- [employee] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-16T13:27:59.105+05:30  INFO 11092 --- [employee] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12e3f4ae
+2024-09-16T13:27:59.105+05:30  INFO 11092 --- [employee] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-16T13:28:01.602+05:30  INFO 11092 --- [employee] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-09-16T13:28:01.734+05:30  INFO 11092 --- [employee] [main] c.example.employee.EmployeeApplication   : Started EmployeeApplication in 7.269 seconds (process running for 7.935)
+2024-09-16T13:28:17.153+05:30  INFO 11092 --- [employee] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-16T13:28:17.182+05:30 DEBUG 11092 --- [employee] [http-nio-8080-exec-1] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2024-09-16T13:28:41.607+05:30  INFO 11092 --- [employee] [http-nio-8080-exec-3] c.e.e.controller.EmployeeController      : Fetching list of all employees
+2024-09-16T13:29:36.819+05:30 DEBUG 11092 --- [employee] [http-nio-8080-exec-6] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped to Actuator web endpoint 'logfile'
+2024-09-16T13:38:49.213+05:30  INFO 11092 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-16T13:38:49.213+05:30  INFO 11092 --- [employee] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
