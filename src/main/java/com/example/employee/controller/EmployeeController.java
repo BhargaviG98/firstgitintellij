@@ -18,8 +18,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-public class
- EmployeeController {
+public class EmployeeController {
 
 //GitHub Repository
     private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
