@@ -18,8 +18,7 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-//hello
+    
     @NotNull(message = "name should not be not null")
     @Size(min =2,max=50,message="name characters should in the middle of 2 to 50" )
     private String name;
