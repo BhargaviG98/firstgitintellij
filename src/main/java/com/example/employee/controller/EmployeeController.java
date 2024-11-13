@@ -20,7 +20,7 @@ import java.util.Optional;
 @RequestMapping("/api")
 public class EmployeeController {
 
-//GitHub Repository
+    //GitHub Repository
     private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
     @Autowired
     private EmployeeService employeeService;
@@ -44,7 +44,6 @@ public class EmployeeController {
         logger.info("Fetching list of all employees");
         return employeeService.fetchEmployeeList();
     }
-//hiii
 
     @GetMapping("/admin/employees/{id}")
     @PreAuthorize("hasRole('ADMIN')")
