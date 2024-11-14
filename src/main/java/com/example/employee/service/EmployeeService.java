@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @Profile(value = {"local", "dev", "prod" })
 public class EmployeeService{
 
-
+//@Profile
     private static final Logger logger = LoggerFactory.getLogger(EmployeeService.class);
     @Autowired
     private EmployeeRepository employeeRepository;
